@@ -29,9 +29,9 @@ async function main() {
     }
 
     const options = {
-      Exposure: 0.50,
-      Contrast: 10,
-      WhiteBalance: "Auto"
+      exposure: 0.50,
+      contrast: 10,
+      whiteBalance: "Auto"
     }
 
     const job = await client.editPhoto(input, output, options)
